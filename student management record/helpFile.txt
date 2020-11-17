@@ -1,0 +1,14 @@
+the is the guid to use this interface
+input			function
+*******************************************************************************
+add			add a student to the list/class
+checkclasslist		displays the list of students and their scores
+checklist			displays the list of students and their scores
+help			display the the guid.
+studentmarks		displays the marks scored perstudent
+quit			exit 
+
+...................expect much soon
+
+
+***********************************************

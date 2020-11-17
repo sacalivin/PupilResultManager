@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1605113171 source:c:\my c programs\my c++\student management record\student.cpp
+	"Student.h"
+	<iostream>
+
+1605113111 c:\my c programs\my c++\student management record\student.h
+	"Subject.h"
+	<string>
+
+1605119691 source:c:\my c programs\my c++\student management record\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+	<fstream>
+	<vector>
+	<string>
+	<windows.h>
+	"Student.h"
+	"Class.h"
+
+1605121206 source:c:\my c programs\my c++\student management record\subject.cpp
+	"Subject.h"
+	<iostream>
+	<map>
+
+1605113111 c:\my c programs\my c++\student management record\subject.h
+	<map>
+	<string>
+
+1605110545 source:c:\my c programs\my c++\student management record\studentperformance.cpp
+	"StudentPerformance.h"
+	"Student.h"
+
+1605111080 c:\my c programs\my c++\student management record\studentperformance.h
+
+1605116148 source:c:\my c programs\my c++\student management record\class.cpp
+	"Class.h"
+	<iostream>
+	<map>
+	<string>
+
+1605115188 c:\my c programs\my c++\student management record\class.h
+	"Student.h"
+	<map>
+
+1605116148 source:c:\my c programs\my c++\pupilresultmanager\student management record\class.cpp
+	"Class.h"
+	<iostream>
+	<map>
+	<string>
+
+1605115188 c:\my c programs\my c++\pupilresultmanager\student management record\class.h
+	"Student.h"
+	<map>
+
+1605113111 c:\my c programs\my c++\pupilresultmanager\student management record\student.h
+	"Subject.h"
+	<string>
+
+1605113111 c:\my c programs\my c++\pupilresultmanager\student management record\subject.h
+	<map>
+	<string>
+
+1605589820 source:c:\my c programs\my c++\pupilresultmanager\student management record\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+	<fstream>
+	<vector>
+	<string>
+	<windows.h>
+	"Student.h"
+	"Class.h"
+
+1605113171 source:c:\my c programs\my c++\pupilresultmanager\student management record\student.cpp
+	"Student.h"
+	<iostream>
+
+1605121206 source:c:\my c programs\my c++\pupilresultmanager\student management record\subject.cpp
+	"Subject.h"
+	<iostream>
+	<map>
+
