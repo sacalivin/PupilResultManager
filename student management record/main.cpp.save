@@ -88,6 +88,7 @@ void commandParser(string cmd )
 
 }
 
+
 void addStudentList()
 {
     SetConsoleTextAttribute(h,15);
@@ -102,6 +103,8 @@ void addStudentList()
     pupils[s.getRegNum()] =s;
     c.setStudentList(&pupils);
     SetConsoleTextAttribute(h,10);
+
+
 }
 
 // displays the student that have been added to the list
@@ -142,10 +145,12 @@ int main()
         }
         catch(...)
         {
-            cout<<"App could not run properly\n";
+            cout<<"App could not run prope\n";
         }
 
+
     }
+
 
     return 0;
 }

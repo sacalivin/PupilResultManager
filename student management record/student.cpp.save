@@ -7,7 +7,7 @@ Student::Student()
 {
     //setStudentDetails();
     //ctor
-    //marks =0;
+    marks =0;
 }
 
 Student::~Student()

@@ -9,9 +9,9 @@ class Subject
     public:
         Subject();
         virtual ~Subject();
-        void setMarks();
+        void setMarks(); 
         void getMarks();
-         int calculateMarks();
+         int calculateMarks(); 
 
 
     protected:

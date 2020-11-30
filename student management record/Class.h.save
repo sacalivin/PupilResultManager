@@ -20,7 +20,7 @@ class Class
     protected:
         int totalStudents; // keeps students total scores.
         double meanScore; // calculates the mean of the class
-        map<string,Student> *pStudents;  // points to a  student list
+        map<string,Student> *pStudents;  // points to a  student list 
 
 
 

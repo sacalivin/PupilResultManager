@@ -3,15 +3,15 @@
 #include "Subject.h"
 #include<string>
 
-class Student:public Subject
+class Student:public Subject 
 {
     public:
         Student();
-        Student(string admNum, string studentName);
+        Student(string admNum, string studentName); 
         virtual ~Student();
         string getRegNum(); // students registration number
         void setStudentDetails(); //  to set all properites of the student
-        void getStudentDetails();
+        void getStudentDetails(); 
 
 
 
