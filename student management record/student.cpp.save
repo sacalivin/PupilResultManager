@@ -7,7 +7,7 @@ Student::Student()
 {
     //setStudentDetails();
     //ctor
-    marks =0;
+    //marks =0;
 }
 
 Student::~Student()
@@ -27,14 +27,24 @@ void Student::setStudentDetails() // set the name and regnum o students
     cout<<"Student RegNum =";
     cin>>regNum;
     cout<<"Student Name =";
+    string lastName ="";
+    //
     cin>>name;
+    
+    // if three names are passed then get the other name.
+    getline(cin,lastName);
+
+    // join the two names.
+    name += lastName;
 
 }
 string Student::getRegNum()
 {
     return regNum;
 }
-void Student::getStudentDetails() //dispalay the infromation recorded about the student
+
+//display the information recorded about the student
+void Student::getStudentDetails() 
 {
     cout<< "This is the information about\n";
     cout<<" name: " << name<<endl;

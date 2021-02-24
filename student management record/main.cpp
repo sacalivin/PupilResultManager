@@ -10,21 +10,28 @@
 #include "Class.h"
 using namespace std;
 
+//keeps students temporary in a map
 map<string,Student> pupils;
+
+// create an instance of a class
 Class c;
+
+// changes the font colors
 HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+
 //class8.setStudentList(&pupils);
-string commandInput;
-string null ="";
-bool run = true;
-void commandParser(string cmd );
+string commandInput; // command passed
+string null =""; // null string variable
+bool run = true; // to keep kernel activated to receive commands
+
+void commandParser(string cmd ); //
 void addStudentList();
 void checkList();
 void copyListClass();
 
 
 
-
+// gets the command entered
 void commandOperator()
 {
     cout<<"cmd:>";
@@ -35,7 +42,7 @@ void commandOperator()
 
 }
 
-// gets the text pass in and evaluate a command for it
+// gets the command pass in and evaluate it
 // if the commnand does not exit display an error message.
 void commandParser(string cmd )
 {
@@ -88,14 +95,16 @@ void commandParser(string cmd )
 
 }
 
+//
 void addStudentList()
 {
-    SetConsoleTextAttribute(h,15);
+    SetConsoleTextAttribute(h,15); // changes font to white
 
 
     string name; // the name of student
     string regNum; // regestration number of student
     // use admision number as key to avoid repeation
+
     Student s;
     s.setStudentDetails();
     s.setMarks();

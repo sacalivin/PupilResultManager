@@ -21,6 +21,7 @@ Subject::~Subject()
     //dtor
 }
 
+// sets the marks of a student
 void Subject::setMarks()
 {
     try
@@ -33,14 +34,17 @@ void Subject::setMarks()
             int score =-1;
             try
             {
+
+
                 cout<< "\t\t"<<i.first<<"=";
-                cin>> score;
-                while(score < 0 || score > 100)
-                {
-                    cout<<"\t\tPlease score should >=0 and <100 \n";
-                    cout<<i.first<<"=";
-                    cin>> score;
-                }
+                
+                
+// checks the validity of the users input
+                while(!(cin >> score) || score < 0 || score >100 ){
+                        cin.clear();
+                        cin.ignore();
+                        cout << "Invalid input. (score should >=0 and <100)Please, try again: ";
+                    }
 
 
                 subjects[i.first] = score;
